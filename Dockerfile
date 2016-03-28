@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM tsuru/base-platform
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 

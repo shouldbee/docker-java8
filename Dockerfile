@@ -8,4 +8,6 @@ RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true 
     apt-get update && \
     apt-get install -y oracle-java8-installer
 
+RUN	cp /var/lib/tsuru/base/deploy /var/lib/tsuru
+
 CMD "/bin/bash"
